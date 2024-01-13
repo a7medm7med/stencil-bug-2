@@ -1,0 +1,7 @@
+@use './button.background' as button-background;
+
+@include button-background.styles();
+
+button {
+  color: white;
+}
